@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script type="text/javascript" src="./showPic.js"></script>
+    <link rel="stylesheet" href="./layout.css" media="screen">
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="./image/路飞.jpg" onclick="showPic(this);
+            return false;" title="The leader of the team">路飞</a>
+        </li>
+        <li>
+            <a href="./image/娜美.jpg" onclick="showPic(this);
+            return false;" title="The pilot of the team">娜美</a>
+        </li>
+        <li>
+            <a href="./image/艾斯.jpg" onclick="showPic(this);
+            return false;" title="Bother of luffei">艾斯</a>
+        </li>
+        <li>
+            <a href="./image/索隆.jpg" onclick="showPic(this);
+            return false;" title="Swordsman">索隆</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="image/placeholder.jpg" alt="My Image Gallery">
+    <p id="description">Choose an image</p>
+</body>
+</html>
